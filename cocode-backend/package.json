@@ -1,0 +1,24 @@
+{
+  "name": "cocode-backend",
+  "version": "1.0.0",
+  "description": "CoCode WebSocket Server for Real-time Collaboration",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "websocket",
+    "yjs",
+    "collaboration"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "lib0": "^0.2.114",
+    "ws": "^8.16.0",
+    "y-websocket": "^1.5.0",
+    "yjs": "^13.6.10"
+  }
+}
