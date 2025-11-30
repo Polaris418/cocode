@@ -3,6 +3,9 @@ node_modules/
 .pnp
 .pnp.js
 
+# Qoder
+.qoder/
+
 # Testing
 coverage/
 *.log
